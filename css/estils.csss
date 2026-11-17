@@ -1,0 +1,223 @@
+
+/* ===== DISTRIBUCIÓ (codi donat, no el modifiqueu) ===== */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 32px;
+}
+
+.resultats {
+    display: flex;
+    gap: 24px;
+}
+
+.targeta {
+    flex: 1;
+}
+
+
+/* ===== ELS VOSTRES ESTILS ===== */
+
+
+/* ESTILS GENERALS */
+
+body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* CAPÇALERA */
+
+header {
+    background-color: #0b3a5e;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 25px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #01b4e4;
+}
+
+
+/* BUSCADOR */
+
+.buscador {
+    background-color: #032541;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.buscador h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 0 10px;
+}
+
+.buscador span {
+    display: block;
+    color: #cccccc;
+    margin-bottom: 25px;
+}
+
+.buscador form {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.buscador input {
+    width: 70%;
+    padding: 14px;
+    border: none;
+    background-color: #0b3a5e;
+    color: white;
+    border-radius: 25px 0 0 25px;
+    font-family: inherit;
+}
+
+.buscador button {
+    background-color: #01b4e4;
+    border: none;
+    padding: 14px 25px;
+    font-weight: bold;
+    border-radius: 0 25px 25px 0;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+
+/* RESULTATS */
+
+.pelicules {
+    padding: 40px;
+}
+
+.pelicules h2 {
+    margin-bottom: 25px;
+}
+
+.resultats {
+    flex-wrap: wrap;
+}
+
+.targeta {
+    background-color: #0b3a5e;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.targeta img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.targeta h3 {
+    color: white;
+    font-size: 18px;
+    padding: 0 15px;
+    margin: 10px 0 5px;
+}
+
+.targeta p {
+    color: #90cea1;
+    padding: 0 15px;
+    margin: 5px 0 15px;
+}
+
+
+/* PEU DE PAGINA */
+
+footer {
+    background-color: #032541;
+    color: white;
+    font-size: 13px;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+
+.contacte {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.contacte > p {
+    color: #555555;
+    margin-bottom: 30px;
+}
+
+.contacte form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    gap: 12px;
+}
+
+.contacte label {
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.contacte input,
+.contacte textarea {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+}
+
+.contacte textarea {
+    resize: vertical;
+}
+
+.contacte button {
+    align-self: flex-start;
+    padding: 13px 28px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #63b8dc;
+    color: #10243b;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.contacte button:hover {
+    background-color: #90cea1;
+}
